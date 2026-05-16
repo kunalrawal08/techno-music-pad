@@ -1,0 +1,35 @@
+# NEON TECHNO LAB - SYSTEM REQUIREMENTS
+# Note: This is a Node.js ecosystem project. 
+# Actual dependencies are resolved natively via package.json and npm/pnpm.
+# This requirements.txt is provided for stack reference and documentation.
+
+# --- Core Environment ---
+Node.js >= 18.17.0
+npm >= 9.0.0
+Vercel CLI (optional, for local serverless testing)
+
+# --- Production Dependencies ---
+# UI & Rendering
+react >= 19.2.3
+react-dom >= 19.2.3
+three >= 0.182.0        # 3D WebGL Visualization
+
+# AI Services
+@google/genai >= 1.36.0 # Google Gemini (TTS / Inference)
+groq-sdk >= 1.2.0       # Groq Fast Inference
+
+# Audio
+lamejs >= 1.2.1         # Audio processing / encoding
+
+# --- Development & Build Dependencies ---
+# Build Engine
+vite >= 6.2.0
+typescript ~ 5.8.2
+
+# Styling Engine
+tailwindcss >= 4.3.0
+postcss >= 8.5.14
+autoprefixer >= 10.5.0
+
+# Deployment Types
+@vercel/node >= 3.0.11  # Vercel Serverless Function Types
