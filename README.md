@@ -1,5 +1,5 @@
 <div align="center">
-
+<img width="1200" height="475" alt="Neon Techno Lab Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 
 # ⚡ Neon Techno Lab
 ### The Ultimate AI-Powered Techno Production Suite
@@ -102,8 +102,4 @@ The project is optimized for **Vercel** deployment:
    - `GROQ_API_KEY` (Used by serverless proxy)
 4. **Deploy!**
 
----
-
-<div align="center">
-Made with ❤️ for the Techno Community.
-</div>
+------------------------------------------------------------------------------
